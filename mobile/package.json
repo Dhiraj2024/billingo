@@ -1,0 +1,47 @@
+{
+  "name": "billingo-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "eas:apk": "npx eas build --platform android --profile preview",
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~6.1.2",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-native-community/datetimepicker": "8.4.4",
+    "@react-native-masked-view/masked-view": "0.3.2",
+    "@react-navigation/drawer": "^7.5.0",
+    "@react-navigation/native": "^7.1.17",
+    "buffer": "^6.0.3",
+    "expo": "~54.0.30",
+    "expo-auth-session": "~7.0.8",
+    "expo-build-properties": "~1.0.9",
+    "expo-file-system": "~19.0.21",
+    "expo-print": "~15.0.7",
+    "expo-sharing": "~14.0.7",
+    "expo-web-browser": "~15.0.9",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-ble-plx": "^3.5.0",
+    "react-native-gesture-handler": "~2.28.0",
+    "react-native-reanimated": "~4.1.1",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "react-native-web": "^0.21.0",
+    "react-native-worklets": "0.5.1"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "~54.0.10",
+    "patch-package": "^8.0.1"
+  },
+  "overrides": {
+    "ajv": "^8.20.0",
+    "image-size": "^2.0.4",
+    "postcss": "^8.5.31"
+  }
+}
